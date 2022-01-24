@@ -1,0 +1,52 @@
+ *{text-align: center;}
+ 
+ header{
+     background-color: burlywood;
+     width: 1200px;
+     height: 100px;
+     float: right;
+     position: relative;
+ }
+ image{
+     float:left;
+     background-color: burlywood;
+ }
+ table, th, td { border: 1px solid black; padding: 20px;
+
+}
+table {border-collapse: collapse;
+text-align: center;
+}
+th{
+    padding: 12px 100px;
+}
+section{
+    position:relative;
+    left: 450px;
+    top:100px;
+}
+footer{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    height: 50px;
+}
+
+a{
+    text-decoration-line:none;
+    color: blanchedalmond;
+}
+.d1{
+    position: absolute;
+    left: 700px;
+    bottom:50px;
+    background-color: black;
+
+}
+.d2{
+    position: absolute;
+    left: 400px;
+    bottom:50px;
+    background-color: black;
+}
