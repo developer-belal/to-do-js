@@ -15,6 +15,25 @@ if(welcome=="no"){
     }
 
 }
+function room(){
+    let m="";
+    var famly=prompt("do you love family");
+    if(famly==="yes" || famly==="no" )
+    m+=(famly+",");
+    var think=prompt("do you think the reason someone heates you is to miss you?");
+    if(think==="yes" || think==="no" )
+    m+=think;
+    var love=prompt("do you love enginnering?");
+    if(love==="yes" || love==="no" )
+    m+=(love+" ,");
+    if(m==="")
+ return   alert("invalid string");
+    else
+    return m;
+
+}
+alert(room());
+
 
 
 
